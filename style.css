@@ -22,7 +22,8 @@ body{
 
   }
 
-#card{
+#card,
+.thanksCard{
   background-color: hsl(215,20%,16%);
   height: 360px;
   border-radius: 15px;
@@ -56,7 +57,8 @@ body{
   
 }
 
-.text h1{
+.text h1,
+.thanksCard h2{
   font-size: 25px;
   color: hsl(0, 0%, 100%);
   letter-spacing: 1px;
@@ -64,7 +66,8 @@ body{
 
 }
 
-.text p{
+.text p,
+.thanksCard p{
   font-size: 15px;
   color: hsl(217, 12%, 63%);
   line-height: 20px;
@@ -104,4 +107,21 @@ body{
 .btnSelected{
   background: hsl(25, 97%, 53%);
   color:hsl(0, 0%, 100%)
+}
+
+.thanksCard img{
+  width: 200px;
+}
+
+.thanksCard{
+  align-items: center;
+  
+}
+
+.thanksCard p{
+  text-align: center;
+}
+
+.hide{
+  display: none;
 }
