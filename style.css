@@ -9,7 +9,7 @@ html{
 }
 
 body{
-  background-color: hsl(216, 12%, 8%);
+  background-color: hsl(228,11%,9%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,10 +23,10 @@ body{
   }
 
 #card{
-  background-color: hsl(213, 19%, 18%);
+  background-color: hsl(215,20%,16%);
   height: 360px;
   border-radius: 15px;
-  padding: 20px;
+  padding: 25px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -36,18 +36,25 @@ body{
 
 #card img,
 .numbers button{
-  background-color: hsl(216, 12%, 54%);
+  background-color: hsl(218, 11%, 19%);
   padding: 10px;
   border-radius: 50%;
   width: 40px;
   height: 40px;
   border: none;
+  color:hsl(217, 12%, 63%)
 }
+
+#card img{
+  width: 35px;
+  height: 35px;
+}
+
 .numbers{
   display: flex;
   justify-content: space-between;
+  
 }
-
 
 .text h1{
   font-size: 25px;
@@ -57,11 +64,11 @@ body{
 
 }
 
-
 .text p{
   font-size: 15px;
   color: hsl(217, 12%, 63%);
   line-height: 20px;
+  text-align: left;
 }
 
 #submit-btn{
@@ -81,4 +88,20 @@ body{
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.numbers button:hover{
+  background:hsl(217, 12%, 63%);
+  color:hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+
+#submit-btn:hover{
+  background: hsl(0, 0%, 100%);
+  color:hsl(25, 97%, 53%)
+}
+
+.btnSelected{
+  background: hsl(25, 97%, 53%);
+  color:hsl(0, 0%, 100%)
 }
