@@ -1,0 +1,49 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background-color: hsl(216, 12%, 8%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 375px;
+  border: 1px solid white;
+  padding: 20px;
+
+  }
+
+#card{
+  background-color: hsl(213, 19%, 18%);
+  height: 350px;
+  border-radius: 15px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  
+  /* gap: 20px; */
+  
+}
+
+
+
+
+
+
+
+.attribution {
+  font-size: 1.2rem;
+    text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
